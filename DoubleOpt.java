@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class IntOpt {
+public class DoubleOpt {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a value of a");
-        int a = sc.nextInt();
+        double a = sc.nextInt();
         System.out.println("Enter a value of b");
-        int b = sc.nextInt();
+        double b = sc.nextInt();
         System.out.println("Enter a value of c");
-        int c = sc.nextInt();
+        double c = sc.nextInt();
 
         System.out.println("The result for a + b *c is "+ (a + (b * c)));
         System.out.println("The result for a * b + c is "+ ((a * b) + c));
